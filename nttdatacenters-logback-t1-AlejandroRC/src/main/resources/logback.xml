@@ -1,9 +1,10 @@
 
-<configuration debug="true">
+<configuration debug="false">
 
 	<!-- VARIABLE CONTROL DE FECHA -->
 	<timestamp key="dateVarLog" datePattern="dd-MM-yyyy" />
-
+	
+	<!-- CONFIGURACION APPENDER CONSOLA -->
 	<appender name="STDOUT"
 		class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
@@ -11,7 +12,7 @@
 		</encoder>
 	</appender>
 
-	<!-- CONFIGURACION APPENDER -->
+	<!-- CONFIGURACION APPENDER FILE ROLLING -->
 	<appender name="TuberiaAlejandro"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		
@@ -36,8 +37,14 @@
 		
 	</appender>
 	
-	<root level="debug">
-	<appender-ref ref="TuberiaAlejandro"/>
-	<appender-ref ref="STDOUT"/>
+	
+    
+	<root name="padre" level="debug">
+		<appender-ref ref="TuberiaAlejandro"/>
 	</root>
+	<!--  -->
+	<logger name="hijo" additivity="false">
+        <appender-ref ref="STDOUT" />
+    </logger>
+	
 </configuration>

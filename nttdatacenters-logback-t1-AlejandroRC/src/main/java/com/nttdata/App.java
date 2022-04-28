@@ -10,13 +10,16 @@ import com.github.javafaker.Faker;
  * 
  * Clase principal
  * 
- * @author Alejandro De la Rosa Cosano -IES Sotero Hernandez
+ * @author Alejandro De la Rosa Cosano - IES Sotero Hernandez
  *
  */
 public class App {
 	
-	/** Logger */
-	private static final Logger CHIVATO = LoggerFactory.getLogger(App.class);
+	/** Logger CHIVATO (Genera un conjunto de registros en la ruta especificada) */
+	private static final Logger CHIVATO = LoggerFactory.getLogger("padre");
+	
+	/**	Logger CHIVATO1  (Imprime los logs correspondientes por consola, exclusivamente) */
+	private static final Logger CHIVATO1 = LoggerFactory.getLogger("hijo");
 
 	/**
 	 * Metodo principal
@@ -24,6 +27,8 @@ public class App {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
+		CHIVATO1.info("Proceso iniciado");
 		
 		/** Lista para almacenar nombres */		
 		CHIVATO.debug("Creación de una lista");
@@ -34,7 +39,7 @@ public class App {
 		/** Generacion nombres falsos */
 		Faker nombre = new Faker();
 
-		for (int i = 0; i < 2000; i++) {
+		for (int i = 0; i < 1500; i++) {
 			String name = nombre.name().fullName();
 			lista.add(name);
 			CHIVATO.debug("Nombre generado:{}, id:{}",name,i);
@@ -49,6 +54,9 @@ public class App {
 			CHIVATO.info("Elemento de la lista: {}", elem);
 
 		}
+		
+		CHIVATO.debug("Proceso finalizado");
+		CHIVATO1.info("Proceso finalizado");
 
 	}
 }
