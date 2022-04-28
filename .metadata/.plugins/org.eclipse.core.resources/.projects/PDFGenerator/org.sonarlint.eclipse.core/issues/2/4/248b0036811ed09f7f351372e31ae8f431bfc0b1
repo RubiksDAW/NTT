@@ -1,0 +1,17 @@
+
+{
+java:S2095"HUse try-with-resources or close this "PDDocument" in a "finally" clause.(³’’ïøÿÿÿÿ8ğÚØû/H¨RBLOCKERZBUG
+[
+java:S1481)"(Remove this unused "fac" local variable.(³¥›¯8–ÏíÜû/HÓRMINORZ
+CODE_SMELL
+r
+java:S2184^"ACast one of the operands of this addition operation to a "float".(ˆûÔËıÿÿÿÿ8ÅÀÂÜû/HĞRMINORZBUG
+n	java:S1252"<This block of commented-out lines of code should be removed.(ìÓÌ8×³ÌÜû/HÑRMAJORZ
+CODE_SMELL
+„
+java:S2095/"QUse try-with-resources or close this "PDPageContentStream" in a "finally" clause.(’ÍÚëúÿÿÿÿ8èèØû/H¯RBLOCKERZBUG
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•¢‹ÖøÿÿÿÿH’RMINORZ
+CODE_SMELL
+j
+java:S1854)"7Remove this useless assignment to local variable "fac".(³¥›¯8–ÏíÜû/HÒRMAJORZ
+CODE_SMELL

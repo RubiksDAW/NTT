@@ -1,0 +1,5 @@
+target/
+.settings/
+.classpath
+doc/
+pom.xml

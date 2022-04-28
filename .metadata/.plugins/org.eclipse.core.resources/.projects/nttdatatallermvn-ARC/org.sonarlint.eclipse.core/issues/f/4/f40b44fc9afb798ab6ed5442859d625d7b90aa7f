@@ -1,0 +1,20 @@
+
+k	java:S106H"9Replace this use of System.out or System.err by a logger.(ªºó˜8ÿ™ÉŒú/HåRMAJORZ
+CODE_SMELL
+k	java:S1062"9Replace this use of System.out or System.err by a logger.(°‚§¶8éšïŒú/HßRMAJORZ
+CODE_SMELL
+k	java:S106="9Replace this use of System.out or System.err by a logger.(ÉÎ¿æ8ó·İŒú/HäRMAJORZ
+CODE_SMELL
+‹
+java:S1450"SRemove the "name" field and declare it as a local variable in the relevant methods.(†œİÑüÿÿÿÿ8ˆæãŒú/HãRMINORZ
+CODE_SMELL
+k	java:S106C"9Replace this use of System.out or System.err by a logger.(‚Î•ô8³¡Šú/HâRMAJORZ
+CODE_SMELL
+p	java:S106S"9Replace this use of System.out or System.err by a logger.(Ñè¤¿şÿÿÿÿ8øæ°¸ú/HRMAJORZ
+CODE_SMELL
+k	java:S106>"9Replace this use of System.out or System.err by a logger.(™§ğå8ÙÊåŒú/HàRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ÃğÂä8ßŒú/HáRMAJORZ
+CODE_SMELL
+p	java:S106N"9Replace this use of System.out or System.err by a logger.(ù¹ûüÿÿÿÿ8ã­„¸ú/HŒRMAJORZ
+CODE_SMELL

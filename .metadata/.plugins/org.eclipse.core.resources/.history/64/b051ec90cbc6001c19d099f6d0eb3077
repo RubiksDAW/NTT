@@ -1,0 +1,55 @@
+package com.nttdata;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import java.util.*;
+import com.github.javafaker.Faker;
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	/** Logger */
+	private static final Logger CHIVATO = LoggerFactory.getLogger(App.class);
+	
+	/**
+	 * Metodo principal
+	 * @param args
+	 */
+    public static void main( String[] args )
+    {
+    	List lista = new ArrayList(); 
+    	Faker nombre = new Faker();
+    	
+    	CHIVATO.info("Creación de una lista");
+    	
+    	lista.add("Juan");
+        lista.add("Ana");
+        lista.add("Pedro");
+        lista.add("Miguel");
+        lista.add("Esther");
+        
+        CHIVATO.info("Nombres añadidos");
+        
+        Iterator iter = lista.iterator();
+        while(iter.hasNext()) {
+        	
+        	String elem = (String) iter.next();
+        	CHIVATO.info("Elemento de la lista: {}",elem);
+        	
+        }
+        
+        for (int i = 0; i < 5000;i++) {
+        	String name = nombre.name().fullName();
+        	CHIVATO.debug("{}",i);
+        	
+        }
+        
+        
+        
+        
+        
+        
+        
+    }
+}
