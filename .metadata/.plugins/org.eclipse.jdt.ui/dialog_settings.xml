@@ -61,13 +61,18 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="false"/>
 		<item key="source" value="17"/>
-		<item key="antpath" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\NTTDataMavenARC\javadoc.xml"/>
-		<item key="destdir" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\NTTDataMavenARC\doc"/>
+		<item key="antpath" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatacenters-logback-t1-AlejandroRC\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatacenters-logback-t1-AlejandroRC\doc"/>
 		<section name="projects">
 			<section name="PruebaProyecto">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\PruebaProyecto\doc"/>
 				<item key="antpath" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\PruebaProyecto\javadoc.xml"/>
+			</section>
+			<section name="pruebaGit">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\pruebaGit\doc"/>
+				<item key="antpath" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\pruebaGit\javadoc.xml"/>
 			</section>
 			<section name="NTTDataMavenARC">
 				<item key="href" value=""/>
@@ -79,10 +84,25 @@
 				<item key="destdir" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatampconsola\doc"/>
 				<item key="antpath" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatampconsola\javadoc.xml"/>
 			</section>
+			<section name="nttdatacenters-logback-t1-AlejandroRC">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatacenters-logback-t1-AlejandroRC\doc"/>
+				<item key="antpath" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatacenters-logback-t1-AlejandroRC\javadoc.xml"/>
+			</section>
 			<section name="PDFGenerator">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\PDFGenerator\doc"/>
 				<item key="antpath" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\PDFGenerator\javadoc.xml"/>
+			</section>
+			<section name="nttdatacenters-sevilla-logback-ex4">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Alejandro-NTT\Desktop\nttdatacenters-sevilla-logback-ex4\doc"/>
+				<item key="antpath" value="C:\Users\Alejandro-NTT\Desktop\nttdatacenters-sevilla-logback-ex4\javadoc.xml"/>
+			</section>
+			<section name="ProyectoGit">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\ProyectoGit\doc"/>
+				<item key="antpath" value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\ProyectoGit\javadoc.xml"/>
 			</section>
 		</section>
 	</section>

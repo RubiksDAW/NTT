@@ -3970,3 +3970,5 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/nt
 2022-04-28 11:58:09,191 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatacenters-logback-t1-AlejandroRC\src\test\resources
 2022-04-28 12:01:11,983 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-04-28 12:01:11,984 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-28 12:01:11,987 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-28 12:01:11,987 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatacenters-logback-t1-AlejandroRC\src\test\resources
