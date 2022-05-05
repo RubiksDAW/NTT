@@ -17,10 +17,10 @@
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		
 		<!-- NOMBRE DEL ARCHIVO LOG -->
-		<file>C://dev//logs/ficheroLogs-${dateVarLog}.log</file>
+		<file>C://dev//logs/AlejandroRCLogs-${dateVarLog}.log</file>
 		<rollingPolicy
 			class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
-			<fileNamePattern>C://dev//logs//ficheroLogs-${dateVarLog}.%i.log
+			<fileNamePattern>C://dev//logs//AlejandroRCLogs-${dateVarLog}.%i.log
 			</fileNamePattern>
 			<minIndex>1</minIndex>
 			<maxIndex>3</maxIndex>
