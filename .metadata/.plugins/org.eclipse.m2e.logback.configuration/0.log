@@ -4043,3 +4043,9 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/nt
 2022-05-05 11:49:53,824 [Worker-27: Rebuilding] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\pruebaGit\src\test\resources
 2022-05-05 11:50:15,693 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-05-05 11:50:15,697 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-05 11:50:15,704 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-05 11:50:15,705 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alejandro-NTT\Desktop\nttdatacenters-sevilla-logback-ex4\src\test\resources
+2022-05-05 12:00:27,270 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-05 12:00:27,273 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-05 12:00:27,278 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-05 12:00:27,279 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatacenters-logback-t1-AlejandroRC\src\test\resources
