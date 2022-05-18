@@ -16,15 +16,14 @@ import nttdata.java1.game.Player;
 public class T1MainAlejandroRC {
 
 	public static void main(String[] args) {
-		/**
-		 * Variable que se solicita al usuario para seleccionar la opcion del menu
-		 */
+		
+		/**Variable que se solicita al usuario para seleccionar la opcion del menu */
 		int opcion = 0;
+		
 		int bolas;
 		Scanner sc = new Scanner(System.in);
-		/**
-		 * Coleccion que almacena datos asociando una llave a un valor.
-		 */
+		
+		/** Coleccion que almacena datos asociando una llave a un valor */
 		Map<String, Integer> tableScore = new HashMap<>();
 		System.out.println("Introduce tu NICK");
 		Player p = new Player(sc.nextLine());
@@ -38,41 +37,25 @@ public class T1MainAlejandroRC {
 			System.out.println("3- Tirada nuevo jugador");
 			System.out.println("4- Salir");
 
-			try {
-
-				opcion = sc.nextInt();
-
-			} catch (InputMismatchException e) {
-
-				sc.next();
-			}
+			opcion = validateDataMenu(opcion, sc);
 
 			switch (opcion) {
 
 			case 1:
 
 				System.out.println("¿Cuantas bolas quieres comprar?");
-				try {
-
-					bolas = sc.nextInt();
-					pinball.startGame(p, bolas);
-					tableScore.put(p.getNick(), p.getScore());
-
-				} catch (InputMismatchException e) {
-
-					System.out.println("ERROR! Has introducido un dato incorrecto");
-					sc.next();
-				}
+				validateData(sc, tableScore, p, pinball);
 
 				break;
 
 			case 2:
-
+				// Utilizamos printf para dar formato a la salida por consola
 				System.out.println("--------------------------------");
 				System.out.printf("%10s %20s", "JUGADOR", "PUNTUACION");
 				System.out.println();
 				System.out.println("--------------------------------");
-
+				
+				
 				for (String key : tableScore.keySet()) {
 
 					System.out.printf("%10s %20s", key, tableScore.get(key));
@@ -88,23 +71,14 @@ public class T1MainAlejandroRC {
 
 				// Con newGame() reseteamos la instancia p dejando sus valores a nulo
 				pinball.newGame();
+				
 				System.out.println("Nick del nuevo jugador:");
 				sc.nextLine();
+				
 				p = new Player(sc.nextLine());
 				System.out.println("¿Cuantas bolas quieres comprar?");
 
-				try {
-					
-					bolas = sc.nextInt();
-					pinball.startGame(p, bolas);
-					tableScore.put(p.getNick(), p.getScore());
-					
-				} catch (InputMismatchException e) {
-					
-					System.out.println("ERROR! Has introducido un dato incorrecto");
-					sc.next();
-					
-				}
+				validateData(sc, tableScore, p, pinball);
 
 				break;
 
@@ -119,6 +93,48 @@ public class T1MainAlejandroRC {
 			}
 
 		} while (opcion != 4);
+	}
+	
+	/**
+	 * Comprueba que no se introducen valores erroneos por escaner
+	 * @param opcion
+	 * @param sc
+	 * @return
+	 */
+	private static int validateDataMenu(int opcion, Scanner sc) {
+		try {
+
+			opcion = sc.nextInt();
+
+		} catch (InputMismatchException e) {
+
+			sc.next();
+		}
+		return opcion;
+	}
+	
+	/**
+	 * Comprueba que no se añaden valores erroneos 
+	 * @param sc
+	 * @param tableScore
+	 * @param p
+	 * @param pinball
+	 */
+
+	private static void validateData(Scanner sc, Map<String, Integer> tableScore, Player p, Game pinball) {
+		int bolas;
+		try {
+			// Validacion de los datos introducidos
+			bolas = sc.nextInt();
+			pinball.startGame(p, bolas);
+			tableScore.put(p.getNick(), p.getScore());
+			
+		} catch (InputMismatchException e) {
+			
+			System.out.println("ERROR! Has introducido un dato incorrecto");
+			sc.next();
+			
+		}
 	}
 
 }
