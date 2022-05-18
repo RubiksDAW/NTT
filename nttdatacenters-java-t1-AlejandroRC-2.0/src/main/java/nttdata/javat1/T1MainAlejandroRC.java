@@ -26,7 +26,7 @@ public class T1MainAlejandroRC {
 		 * Coleccion que almacena datos asociando una llave a un valor.
 		 */
 		Map<String, Integer> tableScore = new HashMap<>();
-		System.out.println("Introduce un NICK");
+		System.out.println("Introduce tu NICK");
 		Player p = new Player(sc.nextLine());
 		Game pinball = new Game(p);
 
@@ -37,11 +37,13 @@ public class T1MainAlejandroRC {
 			System.out.println("2- Tabla puntuaciones");
 			System.out.println("3- Tirada nuevo jugador");
 			System.out.println("4- Salir");
-//			opcion = sc.nextInt();
 
 			try {
+
 				opcion = sc.nextInt();
+
 			} catch (InputMismatchException e) {
+
 				sc.next();
 			}
 
@@ -51,10 +53,13 @@ public class T1MainAlejandroRC {
 
 				System.out.println("¿Cuantas bolas quieres comprar?");
 				try {
+
 					bolas = sc.nextInt();
 					pinball.startGame(p, bolas);
 					tableScore.put(p.getNick(), p.getScore());
+
 				} catch (InputMismatchException e) {
+
 					System.out.println("ERROR! Has introducido un dato incorrecto");
 					sc.next();
 				}
@@ -69,8 +74,10 @@ public class T1MainAlejandroRC {
 				System.out.println("--------------------------------");
 
 				for (String key : tableScore.keySet()) {
+
 					System.out.printf("%10s %20s", key, tableScore.get(key));
 					System.out.println();
+
 				}
 
 				System.out.println("--------------------------------");
@@ -78,8 +85,7 @@ public class T1MainAlejandroRC {
 				break;
 
 			case 3:
-				
-				
+
 				// Con newGame() reseteamos la instancia p dejando sus valores a nulo
 				pinball.newGame();
 				System.out.println("Nick del nuevo jugador:");
@@ -88,12 +94,16 @@ public class T1MainAlejandroRC {
 				System.out.println("¿Cuantas bolas quieres comprar?");
 
 				try {
+					
 					bolas = sc.nextInt();
 					pinball.startGame(p, bolas);
 					tableScore.put(p.getNick(), p.getScore());
+					
 				} catch (InputMismatchException e) {
+					
 					System.out.println("ERROR! Has introducido un dato incorrecto");
 					sc.next();
+					
 				}
 
 				break;

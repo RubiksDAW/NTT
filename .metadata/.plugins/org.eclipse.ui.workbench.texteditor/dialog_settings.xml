@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Name"/>
+		<item key="selection" value="pinball"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="prueba"/>
 			<item value="sure"/>
 			<item value="apellido"/>
 			<item value="contenido"/>
 			<item value="javado"/>
 		</list>
 		<list key="replacehistory">
+			<item value="pinball"/>
 			<item value="lastName"/>
 			<item value="content"/>
 			<item value="contenido1"/>
