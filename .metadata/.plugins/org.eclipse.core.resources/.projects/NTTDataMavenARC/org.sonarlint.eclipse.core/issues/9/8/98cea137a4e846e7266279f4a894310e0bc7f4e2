@@ -1,33 +1,33 @@
 
-p	java:S1066"9Replace this use of System.out or System.err by a logger.(ÂíÜ’ÿÿÿÿÿ8±©Õ„ü/HàRMAJORZ
-CODE_SMELL
-k	java:S106Z"9Replace this use of System.out or System.err by a logger.(™§ğå8Øº±óù/HáRMAJORZ
-CODE_SMELL
-p	java:S106g"9Replace this use of System.out or System.err by a logger.(å°ùüÿÿÿÿ8Ì’¹ıı/HâRMAJORZ
-CODE_SMELL
-‹
-java:S1450"SRemove the "name" field and declare it as a local variable in the relevant methods.(†œİÑüÿÿÿÿ8Š¬Ì„ü/HãRMINORZ
-CODE_SMELL
-s
-java:S2184Œ"ACast one of the operands of this addition operation to a "float".(ˆûÔËıÿÿÿÿ8¬å»İû/HäRMINORZBUG
-k	java:S106X"9Replace this use of System.out or System.err by a logger.(ÉÎ¿æ8ìµÅ¸ú/HåRMAJORZ
-CODE_SMELL
 Œ
-java:S1450""TRemove the "route" field and declare it as a local variable in the relevant methods.(âöçİøÿÿÿÿ8¦í€ßû/HæRMINORZ
+java:S1450""TRemove the "route" field and declare it as a local variable in the relevant methods.(âöçİøÿÿÿÿ8¦í€ßû/HÆ3RMINORZ
 CODE_SMELL
-k	java:S106B"9Replace this use of System.out or System.err by a logger.(âÌçÒ8ïÿ§„ü/HçRMAJORZ
+k	java:S106B"9Replace this use of System.out or System.err by a logger.(âÌçÒ8ïÿ§„ü/HÇ3RMAJORZ
 CODE_SMELL
-p	java:S106U"9Replace this use of System.out or System.err by a logger.(³Çøİüÿÿÿÿ8ìµÅ¸ú/HèRMAJORZ
+p	java:S106e"9Replace this use of System.out or System.err by a logger.(ıºï­úÿÿÿÿ8ğÓÛûı/HÈ3RMAJORZ
+CODE_SMELL
+p	java:S106f"9Replace this use of System.out or System.err by a logger.(ÖÑæÚşÿÿÿÿ8Ì’¹ıı/HÉ3RMAJORZ
+CODE_SMELL
+p	java:S1066"9Replace this use of System.out or System.err by a logger.(ÂíÜ’ÿÿÿÿÿ8±©Õ„ü/HÊ3RMAJORZ
+CODE_SMELL
+k	java:S106X"9Replace this use of System.out or System.err by a logger.(ÉÎ¿æ8ìµÅ¸ú/HË3RMAJORZ
+CODE_SMELL
+k	java:S1061"9Replace this use of System.out or System.err by a logger.(ÃğÂä8¸Ç¡ƒü/HÌ3RMAJORZ
+CODE_SMELL
+k	java:S106Z"9Replace this use of System.out or System.err by a logger.(™§ğå8Øº±óù/HÍ3RMAJORZ
+CODE_SMELL
+p	java:S106U"9Replace this use of System.out or System.err by a logger.(³Çøİüÿÿÿÿ8ìµÅ¸ú/HÎ3RMAJORZ
 CODE_SMELL
 {
-java:S2095M"HUse try-with-resources or close this "PDDocument" in a "finally" clause.(³’’ïøÿÿÿÿ8Ôšİû/HéRBLOCKERZBUG
-p	java:S106a"9Replace this use of System.out or System.err by a logger.(†£—‡ıÿÿÿÿ8õÈó„ü/HêRMAJORZ
+java:S2095M"HUse try-with-resources or close this "PDDocument" in a "finally" clause.(³’’ïøÿÿÿÿ8Ôšİû/HÏ3RBLOCKERZBUG
+p	java:S106g"9Replace this use of System.out or System.err by a logger.(å°ùüÿÿÿÿ8Ì’¹ıı/HĞ3RMAJORZ
 CODE_SMELL
-k	java:S1061"9Replace this use of System.out or System.err by a logger.(ÃğÂä8¸Ç¡ƒü/HëRMAJORZ
-CODE_SMELL
-p	java:S106e"9Replace this use of System.out or System.err by a logger.(ıºï­úÿÿÿÿ8ğÓÛûı/HìRMAJORZ
+s
+java:S2184Œ"ACast one of the operands of this addition operation to a "float".(ˆûÔËıÿÿÿÿ8¬å»İû/HÑ3RMINORZBUG
+p	java:S106a"9Replace this use of System.out or System.err by a logger.(†£—‡ıÿÿÿÿ8õÈó„ü/HÒ3RMAJORZ
 CODE_SMELL
 „
-java:S2095o"QUse try-with-resources or close this "PDPageContentStream" in a "finally" clause.(’ÍÚëúÿÿÿÿ8¬å»İû/HíRBLOCKERZBUG
-p	java:S106f"9Replace this use of System.out or System.err by a logger.(ÖÑæÚşÿÿÿÿ8Ì’¹ıı/HîRMAJORZ
+java:S2095o"QUse try-with-resources or close this "PDPageContentStream" in a "finally" clause.(’ÍÚëúÿÿÿÿ8¬å»İû/HÓ3RBLOCKERZBUG
+‹
+java:S1450"SRemove the "name" field and declare it as a local variable in the relevant methods.(†œİÑüÿÿÿÿ8Š¬Ì„ü/HÔ3RMINORZ
 CODE_SMELL

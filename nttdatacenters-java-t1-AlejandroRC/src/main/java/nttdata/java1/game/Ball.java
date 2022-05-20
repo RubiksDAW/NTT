@@ -14,10 +14,10 @@ public class Ball {
 	private int random;
 	private int id;
 
-//	public Ball(int id) {
-//		super();
-//		this.id = id;
-//	}
+	public Ball(int id) {
+		super();
+		this.id = id;
+	}
 	
 	public Ball() {
 		

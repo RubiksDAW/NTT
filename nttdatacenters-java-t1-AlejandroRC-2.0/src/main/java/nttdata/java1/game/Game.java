@@ -9,9 +9,9 @@ public class Game {
 	/**
 	 * Objeto jugador que se instancia a partir de su nick
 	 */
-	private Player p;
+	private Ball p;
 	
-	public Game(Player p) {
+	public Game(Ball p) {
 		super();
 		this.p = p;
 	}
@@ -34,10 +34,10 @@ public class Game {
 	 * @param p
 	 * @param numBalls
 	 */
-	public void startGame(Player p, int numBalls) {
+	public void startGame(Ball p, int numBalls) {
 
 		p.bounceBall(numBalls);
-		System.out.println(p.getScore());
+		
 
 	}
 

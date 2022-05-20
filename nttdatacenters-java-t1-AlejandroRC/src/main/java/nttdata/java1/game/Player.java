@@ -11,6 +11,11 @@ public class Player {
 	private int finalScore;
 	private int score;
 	
+	public Player() {
+		
+		
+	}
+	
 	public Player(String nick) {
 		
 		this.nick = nick;

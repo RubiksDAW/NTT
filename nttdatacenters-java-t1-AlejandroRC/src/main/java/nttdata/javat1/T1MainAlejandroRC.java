@@ -24,7 +24,7 @@ public class T1MainAlejandroRC {
 		System.out.println("Inserta tu nick");
 		Player p = new Player(sc.nextLine());
 		Game prueba = new Game(p);
-//		prueba.insertNewPlayer(p);
+		prueba.insertNewPlayer(p);
 		//probar liista como constructor del game
 		
 		do {
