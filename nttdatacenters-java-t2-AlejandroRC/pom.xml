@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.nttdata</groupId>
-  <artifactId>nttdatacenters-java-t1-AlejandroRCC</artifactId>
+  <artifactId>nttdatacenters-java-t2-AlejandroRCC</artifactId>
   <version>0.1-SNAPSHOT</version>
 
-  <name>NTTDataPinballARC</name>
-  <description>Primer proyecto JAVA realizado para la formación en NTT Data</description>
+  <name>NTTDataEmployeeARC</name>
+  <description>Segundo proyecto JAVA realizado para la formación en NTT Data</description>
   <url>https://www.nttdata.com</url>
   
   <!-- INFORMACIÓN DESARROLLADORES-->

@@ -2,8 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatacenters-java-t1-AlejandroRC"/>
 			<item value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace"/>
+			<item value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatacenters-java-t1-AlejandroRC"/>
 			<item value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\NTTDataMavenARC\src\main\java\com\nttdata\mvn\App.java"/>
 			<item value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatampconsola"/>
 		</list>
@@ -29,31 +29,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="nttdata.com"/>
-			<item value="nttdata.com.java1.game"/>
-			<item value="nttdata.java1.game"/>
-			<item value="nttdata.com.nttdatacenters"/>
-			<item value="nttdata.javat1"/>
-			<item value="com.nttdata"/>
-			<item value="com.nttdata.org"/>
-			<item value="com.nttdata.PDFGenerator"/>
-			<item value="com.nttdata.mvn"/>
-			<item value="org.rubiks.com.PruebaProyecto"/>
 		</list>
 		<list key="groupId">
-			<item value="nttdata.com"/>
-			<item value="com.nttdata"/>
-			<item value="org.rubiks.com"/>
 		</list>
 		<list key="artifactId">
-			<item value="nttdatacenters-java-t1-AlejandroRC-2.0"/>
-			<item value="nttdatacenters-java-t1-AlejandroRCC"/>
-			<item value="nttdatacenters-java-t1-AlejandroRC"/>
-			<item value="nttdatacenters-logback-t1-AlejandroRC"/>
-			<item value="pruebaGit"/>
-			<item value="PDFGenerator"/>
-			<item value="nttdatatallermvn-ARC"/>
-			<item value="PruebaProyecto"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -65,7 +44,6 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
-			<item value="0.1-SNAPSHOT"/>
 		</list>
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
@@ -89,6 +67,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatacenters-java-t1-AlejandroRC-3.0"/>
 			<item value="C:\Users\Alejandro-NTT\Desktop\nttdatacenters-sevilla-logback-ex4"/>
 			<item value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatatallermvn-ARC\pom.xml"/>
 			<item value="C:\Users\Alejandro-NTT\Desktop\Mvn-Workspace\nttdatampconsola"/>

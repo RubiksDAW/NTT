@@ -12,6 +12,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nttdatacenters-logback-t1-AlejandroRC" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nttdatacenters-java-t1-AlejandroRC" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nttdatacenters-java-t1-AlejandroRC-2.0" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/nttdatacenters-java-t2-AlejandroRC" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1647594831181_2" label="Window Working Set" name="Aggregate for window 1647594831181"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1648118312928_5" label="Multiple Working Sets" name="Aggregate:JAVA:MAVEN:">
