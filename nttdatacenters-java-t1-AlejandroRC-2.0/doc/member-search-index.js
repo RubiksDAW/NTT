@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"nttdata.java1.game","c":"Game","l":"Game(Player)","u":"%3Cinit%3E(nttdata.java1.game.Player)"},{"p":"nttdata.java1.game","c":"Game","l":"newGame()"},{"p":"nttdata.java1.game","c":"Game","l":"startGame(Player, int)","u":"startGame(nttdata.java1.game.Player,int)"}];updateSearchResults();
+memberSearchIndex = [{"p":"nttdata.javat1","c":"T1MainAlejandroRC","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"nttdata.javat1","c":"T1MainAlejandroRC","l":"T1MainAlejandroRC()","u":"%3Cinit%3E()"}];updateSearchResults();
