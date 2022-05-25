@@ -24,7 +24,7 @@ public class T2MainAlejandroRC {
 		x.insertEmployee("Maria", "Analista");
 		x.insertEmployee("Gabriel", "Programador");
 		x.insertEmployee("Jesus", "Analista");
-		x.insertEmployee("Manuel", "Ingeniero");
+		
 
 		CHIVATO.debug("Usuarios añadidos con exito");
 
@@ -49,7 +49,22 @@ public class T2MainAlejandroRC {
 
 		System.out.println(" Numero de empleados total: ");
 		x.countEmployee();
-
+		
+		System.out.println("Borramos los demas empleados");
+		x.deleteEmployee(1);
+		x.deleteEmployee(2);
+		x.deleteEmployee(4);
+		x.deleteEmployee(5);
+		
+		System.out.println("Ahora intentamos añadir mas de 5 empleados: ");
+		
+		x.insertEmployee("Alejandro", "Programador");
+		x.insertEmployee("Manuel", "Programador");
+		x.insertEmployee("Maria", "Analista");
+		x.insertEmployee("Gabriel", "Programador");
+		x.insertEmployee("Jesus", "Analista");
+		x.showEmployees();
+		x.insertEmployee("Manuela", "Analista");
 	}
 
 }

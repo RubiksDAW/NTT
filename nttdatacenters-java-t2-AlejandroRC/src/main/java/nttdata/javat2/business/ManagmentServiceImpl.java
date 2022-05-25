@@ -12,34 +12,33 @@ public class ManagmentServiceImpl implements ManagmentServicel {
 	@Override
 	public void insertEmployee(String name, String category) {
 
-		if (name != null && name != "" && category != null && category != "" && database.size() <= 5) {
+		if (database.size() >= 5) {
 
-			Employee a = new Employee();
-
-			a.setCategory(category);
-
-			a.setName(name);
-
-			database.put(a.getId(), a);
+			System.out.println("No se pueden contratar más empleados");
 
 		} else {
 
-			System.err.println("Has introducido algun campo vacío");
+			if (name != null && name != "" && category != null && category != "") {
 
+				Employee a = new Employee();
+
+				a.setCategory(category);
+
+				a.setName(name);
+
+				database.put(a.getId(), a);
+
+			} else {
+
+				System.err.println("Has introducido algun campo vacío");
+
+			}
 		}
 
 	}
 
 	@Override
 	public void showEmployees() {
-
-		str.append(" ID / ");
-		str.append("NAME / ");
-		str.append("CATEGORY / ");
-		str.append("BUSINESSNAME");
-		str.append('\n');
-
-		System.out.println(str);
 
 		for (Integer key : database.keySet()) {
 
@@ -88,7 +87,7 @@ public class ManagmentServiceImpl implements ManagmentServicel {
 			database.remove(id);
 
 		} else {
-			
+
 			System.out.println("No se ha encontrado el ID buscado");
 		}
 
