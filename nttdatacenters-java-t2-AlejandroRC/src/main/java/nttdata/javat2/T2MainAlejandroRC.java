@@ -19,7 +19,7 @@ public class T2MainAlejandroRC {
 
 		ManagmentServiceImpl x = new ManagmentServiceImpl();
 
-		x.insertEmployee("Alejandro", "Programador");
+		x.insertEmployee("Alejandro", "Programador ");
 		x.insertEmployee("Manuel", "Programador");
 		x.insertEmployee("Maria", "Analista");
 		x.insertEmployee("Gabriel", "Programador");
