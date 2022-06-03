@@ -1,7 +1,7 @@
 package nttdata.javat2.business;
 
 /**
- * 
+ * Clase Empleado
  * @author Alejandro-NTT
  *
  */

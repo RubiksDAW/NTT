@@ -3,7 +3,11 @@ package nttdata.javat2.business;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
-
+/**
+ * Clase ManagementServiceImpl que implementa la interfaz ManagementServicel
+ * @author Alejandro-NTT
+ *
+ */
 public class ManagmentServiceImpl implements ManagmentServicel {
 
 	Map<Integer, Employee> database = new HashMap<>(5);
