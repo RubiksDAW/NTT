@@ -1,6 +1,6 @@
 package nttdata.javat4;
 
-import java.util.Scanner;
+
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,7 +25,7 @@ public class T4MainARC {
 	public static void main(String[] args) {
 
 		ManagementServiceImpl x = new ManagementServiceImpl();
-		Scanner sc = new Scanner(System.in);
+		
 		// Creamos varios institutos
 		x.addOrUpdateSchool("IES Sotero", "DAM", "Sevilla");
 		x.addOrUpdateSchool("CSUR", "DAW", "Malaga");
